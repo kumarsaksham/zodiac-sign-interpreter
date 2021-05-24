@@ -37,7 +37,7 @@ export default function App() {
   return (
     <div className="App">
       <header className = "header">Zodiac Sign Interpreter</header>
-      <input onChange ={inputEventHandler} placeholder = "Put your zodiac symbol here!"></input>
+      <input onChange ={inputEventHandler} placeholder = "Put your zodiac symbol here or select from below."></input>
       <div className = "output"> { zodiacSign }  </div>
 
       <h3>Zodiac Signs</h3>
